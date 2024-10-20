@@ -2,11 +2,9 @@ from pydantic import BaseModel, Field
 from enum import Enum
 from datetime import date, datetime
 
-
 class TripType(str, Enum):
     flight = "FLIGHT"
     bus = "BUS"
-
 
 class TripReservation(BaseModel):
     trip_type: TripType
@@ -14,7 +12,7 @@ class TripReservation(BaseModel):
     departure: str
     destination: str
     cost: int
-
+    reservation_type: str = Field(default="TripReservation")
 
 class HotelReservation(BaseModel):
     checkin_date: date
@@ -22,7 +20,7 @@ class HotelReservation(BaseModel):
     hotel_name: str
     city: str
     cost: int
-
+    reservation_type: str = Field(default="HotelReservation")
 
 class RestaurantReservation(BaseModel):
     reservation_time: datetime
@@ -30,7 +28,7 @@ class RestaurantReservation(BaseModel):
     city: str
     dish: str
     cost: int
-
+    reservation_type: str = Field(default="RestaurantReservation")
 
 class AgentAPIResponse(BaseModel):
     status: str

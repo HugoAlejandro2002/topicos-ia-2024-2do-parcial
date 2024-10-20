@@ -3,9 +3,11 @@ from llama_index.core.agent import ReActAgent
 from ai_assistant.tools import (
     travel_guide_tool,
     flight_tool,
-    # hotel_tool,
-    # bus_tool,
-    # restaurant_tool,
+    hotel_tool,
+    bus_tool,
+    restaurant_tool,
+    trip_summary_tool,
+    department_info_tool,
 )
 
 
@@ -15,9 +17,11 @@ class TravelAgent:
             [
                 travel_guide_tool,
                 flight_tool,
-                # hotel_tool,
-                # bus_tool,
-                # restaurant_tool,
+                hotel_tool,
+                bus_tool,
+                restaurant_tool,
+                trip_summary_tool,
+                department_info_tool,
             ],
             verbose=True,
         )
