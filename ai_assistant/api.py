@@ -7,12 +7,11 @@ from ai_assistant.tools import (
     reserve_bus,
     reserve_hotel,
     reserve_restaurant,
-    generate_trip_summary,
 )
-from datetime import datetime
+from ai_assistant.prompts import agent_prompt_tpl
 
 def get_agent() -> ReActAgent:
-    return TravelAgent().get_agent()
+    return TravelAgent(agent_prompt_tpl).get_agent()
 
 
 app = FastAPI(title="AI Agent")

@@ -30,5 +30,85 @@
         "destination": "Dallas",
         "cost": 401,
         "reservation_type": "TripReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2024-04-10",
+        "departure": "La Paz",
+        "destination": "Santa Cruz",
+        "cost": 306,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2024-02-02",
+        "checkout_date": "2024-02-05",
+        "hotel_name": "Hotel Chasqui del Sol",
+        "city": "La Paz",
+        "cost": 714,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "checkin_date": "2025-06-11",
+        "checkout_date": "2025-06-13",
+        "hotel_name": "Hotel Rosario",
+        "city": "La Paz",
+        "cost": 518,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "checkin_date": "2025-07-11",
+        "checkout_date": "2025-07-13",
+        "hotel_name": "Estrella Andina",
+        "city": "La Paz",
+        "cost": 324,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "trip_type": "BUS",
+        "date": "2024-10-10",
+        "departure": "La Paz",
+        "destination": "Irupana",
+        "cost": 118,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2024-10-10",
+        "checkout_date": "2024-10-16",
+        "hotel_name": "Irupana Mi amor",
+        "city": "Irupana",
+        "cost": 714,
+        "reservation_type": "HotelReservation"
+    },
+    {
+        "reservation_time": "2024-10-10T20:00:00",
+        "restaurant": "Gustu",
+        "city": "La PAz",
+        "dish": "Pescao",
+        "cost": 90,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "reservation_time": "2023-11-04T14:00:00",
+        "restaurant": "Gustu",
+        "city": "La Paz",
+        "dish": "not specified",
+        "cost": 97,
+        "reservation_type": "RestaurantReservation"
+    },
+    {
+        "trip_type": "FLIGHT",
+        "date": "2023-11-05",
+        "departure": "La Paz",
+        "destination": "Tarija",
+        "cost": 258,
+        "reservation_type": "TripReservation"
+    },
+    {
+        "checkin_date": "2024-11-04",
+        "checkout_date": "2024-11-08",
+        "hotel_name": "Hotel Presidente",
+        "city": "La Paz",
+        "cost": 508,
+        "reservation_type": "HotelReservation"
     }
 ]
